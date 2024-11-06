@@ -46,5 +46,14 @@
 // Ejercicio 6
 // Definir una interfaz "Producto" con propiedades: nombre (string), precio (number), y enStock (boolean).
 // Crear un array de "productos" con seis objetos que sigan la interfaz.
-// Crear una función que reciba el array y retorne los nombres de los productos en stock (sólo en stock). 
+// Crear una función que reciba el array y retorne los productos en stock (sólo en stock). 
+// Crear otra función que reciba el array y retorne los productos sin stock (sólo sin stock). 
+// Se puede usar método filter() para esto.
+
+
+// Ejercicio 7
+// Definir una interfaz "Cliente" con 4 propiedades a elección (por ahora solamente tipos string, booleanos y numbers).
+// Crear un array de "clientes" con seis objetos que sigan la interfaz.
+// Crear una función que reciba el array y retorne los clientes que cumplan una condición (segun el booleano que hayamos creado). 
+// Crear otra función que reciba el array y retorne los clientes que cumplan la condición inversa al punto de arriba (mismo booleano que hayamos elegido). 
 // Se puede usar método filter() para esto.
