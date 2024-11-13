@@ -102,4 +102,72 @@ Imprimir el array productosFormato en la consola.
 
 
 
+
+
+Ejercicio 15:
+Con los datos que tenemos, crear una interfaz "User" y aplicarla, para que el siguiente codigo compile sin errores:
+
+
+const users: unknown[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    }
+];
+
+function logPerson(user: unknown) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+console.log('Users:');
+users.forEach(logPerson);
+
+
+
+
+Ejercicio 16:
+Vamos a volver a usar la interfaz User del ejercicio anterior.
+Crear una nueva interfaz Admin segun los datos que tenemos.
+Corregir el type Person para que acepte dos tipos: User y la nueva interfaz. 
+Corregir la implementacion para aplicar el type Person para que el siguiente codigo compile sin errores. 
+
+type Person = User;
+const persons: User[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Jane Doe',
+        age: 32,
+        role: 'Administrator'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    },
+    {
+        name: 'Bruce Willis',
+        age: 64,
+        role: 'World saver'
+    }
+];
+
+function logPerson(user: User) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+persons.forEach(logPerson);
+
+
 */
+
+
