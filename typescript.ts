@@ -5,7 +5,7 @@
 // map(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map 
 // find(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find 
 // Más práctica online: https://www.w3schools.com/typescript/exercise.php?filename=exercise_intro1 
-
+// Triple igual en comparaciones: https://developer.mozilla.org/es/docs/Web/JavaScript/Equality_comparisons_and_sameness 
 
 
 // Ejercicio 1
